@@ -1,6 +1,6 @@
 Fork of [otoolep/hraftd](https://github.com/otoolep/hraftd)
 
-For background on this project check out this [blog post](http://www.philipotoole.com/
+For background on this project check out this [blog post](http://www.philipotoole.com/)
 
 hraftd
 ======
