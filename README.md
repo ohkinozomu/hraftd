@@ -1,4 +1,6 @@
-_For background on this project check out this [blog post](http://www.philipotoole.com/building-a-distributed-key-value-store-using-raft/). Please note that this project has been archived, and is no longer maintained._
+Fork of [otoolep/hraftd](https://github.com/otoolep/hraftd)
+
+For background on this project check out this [blog post](http://www.philipotoole.com/
 
 hraftd
 ======
