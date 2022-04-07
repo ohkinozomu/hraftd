@@ -1,0 +1,19 @@
+name: Test
+on: push
+jobs:
+  test:
+    name: Go test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run Go test
+        run: go test -timeout 60s -v ./...
+  race-test:
+    name: race test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run race test
+        run: GORACE="halt_on_error=1" go test -race -timeout 120s -v ./...
