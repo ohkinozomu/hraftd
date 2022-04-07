@@ -29,9 +29,9 @@ Starting and running a hraftd cluster is easy. Download and build hraftd like so
 mkdir work # or any director you like
 cd work
 export GOPATH=$PWD
-mkdir -p src/github.com/otoolep
-cd src/github.com/otoolep/
-git clone git@github.com:otoolep/hraftd.git
+mkdir -p src/github.com/ohkinozomu
+cd src/github.com/ohkinozomu/
+git clone git@github.com:ohkinozomu/hraftd.git
 cd hraftd
 go install
 ```
@@ -48,7 +48,7 @@ curl -XGET localhost:11000/key/user1
 ```
 
 ### Bring up a cluster
-_A walkthrough of setting up a more realistic cluster is [here](https://github.com/otoolep/hraftd/blob/master/CLUSTERING.md)._
+_A walkthrough of setting up a more realistic cluster is [here](https://github.com/ohkinozomu/hraftd/blob/master/CLUSTERING.md)._
 
 Let's bring up 2 more nodes, so we have a 3-node cluster. That way we can tolerate the failure of 1 node:
 ```bash
