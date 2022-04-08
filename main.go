@@ -17,7 +17,7 @@ import (
 // Command line defaults
 const (
 	DefaultHTTPAddr = ":11000"
-	DefaultRaftAddr = ":12000"
+	DefaultRaftAddr = "127.0.0.1:12000"
 )
 
 // Command line parameters
