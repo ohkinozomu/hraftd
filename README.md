@@ -47,6 +47,11 @@ curl -XPOST localhost:11000/key -d '{"user1": "batman"}'
 curl -XGET localhost:11000/key/user1
 ```
 
+## Running hraftd on Docker
+```bash
+docker container run ohkinozomu/hraftd:latest -id node0 ~/node0
+```
+
 ### Bring up a cluster
 _A walkthrough of setting up a more realistic cluster is [here](https://github.com/ohkinozomu/hraftd/blob/master/CLUSTERING.md)._
 
