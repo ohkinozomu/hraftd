@@ -3,7 +3,7 @@ module github.com/ohkinozomu/hraftd
 go 1.18
 
 require (
-	github.com/hashicorp/raft v1.3.6
+	github.com/hashicorp/raft v1.3.7
 	github.com/hashicorp/raft-boltdb/v2 v2.2.2
 )
 
